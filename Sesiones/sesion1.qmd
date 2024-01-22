@@ -1,0 +1,57 @@
+---
+title: Getting started
+jupyter: python3
+format:
+    html:
+        code-fold: show
+        code-summary: "code"
+---
+
+# Formación de Imágenes en Python
+
+En esta sesión, exploraremos los fundamentos de la formación de imágenes utilizando Python. Aprenderemos cómo cargar, visualizar y manipular imágenes digitales.
+
+```{python}
+#| code-fold: true
+
+
+# Importar las librerías necesarias
+import matplotlib.pyplot as plt
+from PIL import Image
+import numpy as np
+
+# Cargar una imagen de ejemplo
+image_path = '../static/lenna.jpeg'  # Reemplaza con la ruta a tu imagen
+image = Image.open(image_path)
+
+# Mostrar la imagen
+plt.imshow(image)
+plt.title('Imagen de Ejemplo')
+plt.axis('off')  # Ocultar los ejes
+plt.show()
+```
+
+# Análisis de la Imagen
+
+Ahora, vamos a convertir la imagen a escala de grises y mostrar su histograma para entender la distribución de los píxeles.
+
+```{python}
+# Convertir la imagen a escala de grises
+gray_image = image.convert('L')
+
+# Mostrar la imagen en escala de grises
+plt.imshow(gray_image, cmap='gray')
+plt.title('Imagen en Escala de Grises')
+plt.axis('off')
+plt.show()
+
+# Calcular y mostrar el histograma
+histogram = np.array(gray_image).flatten()
+plt.hist(histogram, bins=50, range=[0,255], density=True, color='gray', alpha=0.75)
+plt.title('Histograma de la Imagen en Escala de Grises')
+plt.xlabel('Intensidad de Píxel')
+plt.ylabel('Frecuencia Normalizada')
+plt.show()
+```
+
+exitosamente se visualizo el histograma y la imagen en escala de grises

@@ -1,0 +1,41 @@
+---
+title: Bienvenido al Semillero "Hands-on Computer Vision"
+---
+
+Bienvenido al semillero **Hands-on Computer Vision**, un viaje emocionante y práctico a través del vasto mundo de la visión por computadora y el procesamiento de imágenes. Aquí, no solo aprenderás los conceptos teóricos, sino que también tendrás la oportunidad de aplicarlos en proyectos reales y desafiantes. 
+
+## ¿Qué te espera?
+
+Prepárate para sumergirte en sesiones interactivas y prácticas donde exploraremos temas como:
+
+- **Segmentación de imágenes** basada en propiedades de los materiales.
+- Procesamiento de imágenes **RGB+D** para la comprensión de escenas y navegación.
+- Uso de **Lidar/ToF** para rangos de medición.
+- **Imágenes térmicas** y sus aplicaciones.
+- Desarrollo de software para productos basados en **Apple**, utilizando sensores integrados.
+- **TinyML**: implementación de ML en hardware como Arduino/Raspberry PI.
+- Procesamiento de imágenes en la **web**.
+
+Cada sesión está diseñada para construir una base sólida y avanzar hacia temas más complejos, garantizando un aprendizaje integral y práctico.
+
+## Herramientas y Tecnologías
+
+Vamos a utilizar tecnologías y herramientas de vanguardia, incluyendo:
+
+- **Librerías y lenguajes**: OpenCV, Python, Swift, y más.
+- **Plataformas colaborativas** como GitHub y Colab para un aprendizaje interactivo y colaborativo.
+- **Kaggle** y otras plataformas para retos y competencias emocionantes.
+
+## Proyecto Incremental
+
+A lo largo del semillero, trabajarás en un **proyecto incremental**, donde cada sesión contribuirá a un proyecto final completo y funcional. Este enfoque práctico garantiza que no solo aprendas los conceptos, sino que también ganes experiencia práctica aplicándolos.
+
+## Únete a Nosotros
+
+¿Listo para embarcarte en esta aventura de aprendizaje y descubrimiento? Sigue navegando por nuestro sitio web para obtener más detalles sobre cada sesión y cómo puedes inscribirte.
+
+¡Estamos emocionados de tenerte a bordo y no podemos esperar para ver lo que crearemos juntos en el mundo de la visión por computadora!
+
+---
+
+_¡Sigue explorando y preparándote para una experiencia de aprendizaje única en el semillero "Hands-on Computer Vision"!_

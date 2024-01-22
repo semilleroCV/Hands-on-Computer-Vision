@@ -1,7 +1,68 @@
 ---
-title: "website"
+title: Hands-on Computer Vision
+sidebar: false
+format:
+  html:
+    toc: false
+    page-layout: full
+
+
+
+
 ---
 
-This is a Quarto website.
+<header>
+    <h2>De los Conceptos al Código</h2>
+</header>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<main>
+<section class="introduction">
+    <h3>Introducción al Semillero</h3>
+    <p>
+        Sumérgete en una experiencia práctica y teórica con nuestro semillero "Hands-on Computer Vision". Aprende y aplica conocimientos en visión por computadora para resolver problemas reales, utilizando tecnologías de punta como OpenCV y Python.
+    </p>
+</section>
+
+<section class="upcoming-sessions">
+    <h3>Cronograma</h3>
+    <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+        <thead>
+            <tr style="background-color: #f2f2f2;">
+                <th style="padding: 12px 15px; border: 1px solid #ddd;">Fecha</th>
+                <th style="padding: 12px 15px; border: 1px solid #ddd;">Título</th>
+                <th style="padding: 12px 15px; border: 1px solid #ddd;">Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="transition: background-color 0.3s ease;">
+                <td style="padding: 10px 15px; border: 1px solid #ddd;">Sesión 1</td>
+                <td style="padding: 10px 15px; border: 1px solid #ddd;">Introducción al Mundo de la Visión por Computadora</td>
+                <td style="padding: 10px 15px; border: 1px solid #ddd;">Una visión general de la visión por computadora y su impacto en el mundo real.</td>
+            </tr>
+            <tr style="transition: background-color 0.3s ease;">
+                <td style="padding: 10px 15px; border: 1px solid #ddd;">Sesión 2</td>
+                <td style="padding: 10px 15px; border: 1px solid #ddd;">Profundizando en la Segmentación de Imágenes</td>
+                <td style="padding: 10px 15px; border: 1px solid #ddd;">Exploración de la segmentación de imágenes y propiedades de los materiales.</td>
+            </tr>
+            <tr style="transition: background-color 0.3s ease;">
+                <td style="padding: 10px 15px; border: 1px solid #ddd;">Sesión 3</td>
+                <td style="padding: 10px 15px; border: 1px solid #ddd;">Navegando RGB+D Imaging y Comprensión de Escenas</td>
+                <td style="padding: 10px 15px; border: 1px solid #ddd;">Comprensión de las imágenes RGB en detalle y su aplicación en la comprensión de escenas.</td>
+            </tr>
+            <!-- Continuar con las demás sesiones según se requiera -->
+        </tbody>
+    </table>
+</section>
+
+<section class="join">
+    <h3>Participa en el Semillero</h3>
+    <p>
+        ¿Listo para unirte? Inscríbete y comienza a explorar el apasionante campo de la visión por computadora con nosotros.
+    </p>
+    <a class="button" href="inscripcion.qmd">Inscribirse Ahora</a>
+</section>
+</main>
+
+<footer>
+    <p>Para consultas, contacta a <a href="mailto:contacto@handson-cv.edu">contacto@handson-cv.edu</a>.</p>
+</footer>

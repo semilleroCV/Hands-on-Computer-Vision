@@ -1,0 +1,14 @@
+---
+title: Hands-on Computer Vision
+sidebar: false
+format:
+  html:
+    toc: false
+    page-layout: full
+
+
+
+
+---
+
+in construction

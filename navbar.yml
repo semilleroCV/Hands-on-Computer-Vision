@@ -1,0 +1,21 @@
+website:
+  navbar:
+    logo: "logo.png"
+    background: primary
+
+    left:
+      - text: Inicio
+        href: index.qmd
+      - text: Sesiones
+        href: curso.qmd
+      - text: Galeria
+        href: galeria.qmd
+
+    tools:
+
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://code.com
+          - text: Report a Bug
+            url:  https://bugs.com'

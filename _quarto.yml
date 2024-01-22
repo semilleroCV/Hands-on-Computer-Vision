@@ -1,28 +1,28 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  repo-url: https://github.com/quarto-dev/quarto-demo
+  repo-url: https://github.com/SemilleroCI/semillero
   repo-actions: [edit, issue]
   title: "Semillero Computer Vision"
-  navbar:
-    logo: "logo.png"
-    background: primary
 
-    left:
-      - text: Inicio
-        href: index.qmd
-      - about.qmd
 
-    tools:
-      - icon: twitter
-        href: https://twitter.com
-      - icon: github
-        menu:
-          - text: Source Code
-            url:  https://code.com
-          - text: Report a Bug
-            url:  https://bugs.com'
+  page-footer:
+    left: |
+      Desarrolado por:
+      
+    center:
+      - text: "Github"
+        href: github.com
+      - text: "Youtube"
+        href: youtube.com
+      - text: "FAQ"
+        href: faq.qmd
+
+    right:  © 2024 Hands-on Computer Vision. Todos los derechos reservados. 
+  
+
 
   sidebar:
     style: "floating"
@@ -35,4 +35,7 @@ format:
     toc: true
 
 
+metadata-files:
+  - navbar.yml
+  - sidebar.yml
 

@@ -19,3 +19,5 @@ https://quarto.org/docs/interactive/
 https://quarto.org/docs/websites/
 
 https://quarto.org/docs/interactive/widgets/jupyter.html
+
+ejecutar quarto preview para generar el sitio

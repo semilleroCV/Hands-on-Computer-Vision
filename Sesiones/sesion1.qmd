@@ -7,6 +7,28 @@ format:
         code-summary: "code"
 ---
 
+
+
+::: {layout="[30,70]"}
+
+![](../images/sesion1.png)
+
+In this session, we're diving straight into the core of image formation – within the first few moments, you'll engage with an interactive example that demonstrates the fundamental principles of image capturing and processing. These principles form the foundation of what drives modern computer vision technology, offering a glimpse into the intricate dance of light and sensors that was at the forefront of computational imaging just a decade ago.
+
+
+
+:::
+
+
+
+[slides de la sesion*](github.com)
+
+:::{.callout-tip}
+## New!
+
+Esta sesion se realizara el dia xx a las xx
+:::
+
 # Formación de Imágenes en Python
 
 En esta sesión, exploraremos los fundamentos de la formación de imágenes utilizando Python. Aprenderemos cómo cargar, visualizar y manipular imágenes digitales.
@@ -21,7 +43,7 @@ from PIL import Image
 import numpy as np
 
 # Cargar una imagen de ejemplo
-image_path = '../static/lenna.jpeg'  # Reemplaza con la ruta a tu imagen
+image_path = '../images/lenna.jpeg'  # Reemplaza con la ruta a tu imagen
 image = Image.open(image_path)
 
 # Mostrar la imagen
@@ -55,3 +77,28 @@ plt.show()
 ```
 
 exitosamente se visualizo el histograma y la imagen en escala de grises
+
+ejemplo de ecuacion:
+
+$$
+\begin{equation}
+Y = H \cdot x
+\end{equation}
+$$
+
+Donde $Y$ es la imagen de salida, $H$ es el kernel de convolución y $x$ es la imagen de entrada.
+
+```{python}
+
+import numpy as np
+
+# Definir el kernel de convolución
+kernel = np.array([[0, 0, 0],
+                   [0, 1, 0],
+                   [0, 0, 0]])
+
+# Convertir la imagen a un arreglo de numpy
+print(kernel)
+
+
+```

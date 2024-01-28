@@ -5,7 +5,7 @@ project:
 website:
   repo-url: https://github.com/SemilleroCI/semillero
   repo-actions: [edit, issue]
-  title: "Semillero Computer Vision"
+  title: "Computer Vision"
 
 
   page-footer:

@@ -11,7 +11,7 @@ format:
 
 <div style="text-align: center;">
    <h1 style="font-family:  'Reem Kufi Ink' ,sans-serif;">
-         Semillero&nbsp;&nbsp;Hands-on&nbsp;&nbsp;&nbsp;<span style="color: #c0d6e4">C</span>omputer <span style="color: #c0d6e4">V</span>ision
+         Semillero&nbsp;&nbsp;Hands-on&nbsp;&nbsp; <span style="color: #c0d6e4">C</span>omputer <span style="color: #c0d6e4">V</span>ision
     </h1>
 </div>
 

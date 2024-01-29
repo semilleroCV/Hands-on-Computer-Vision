@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Reem+Kufi+Ink&display=swap');
 
+h2{
+    border-bottom: 0px !important;
+}
+
 main{
-    
+
     margin-top: 0px !important ; 
 }
 

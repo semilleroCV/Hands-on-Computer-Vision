@@ -1,1 +1,57 @@
-/* css styles */
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Reem+Kufi+Ink&display=swap');
+
+main{
+    
+    margin-top: 0px !important ; 
+}
+
+img:hover {
+    opacity: 1;
+    -webkit-animation: flash 1s;
+    animation: flash 1s;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+table tr:hover {
+    background-color: #e6f7ff;
+}
+
+.button:hover {
+    background-color: #e6f7ff;
+    color: black;
+}
+
+.professor-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.professor-image {
+    width: 300px; /* Puedes ajustar el tamaño según sea necesario */
+    margin-right: 20px;
+    border-radius: 8px; /* Añadido para bordes redondeados en la imagen */
+}
+
+.professor-description {
+    max-width: 600px; /* Puedes ajustar el ancho máximo según sea necesario */
+}

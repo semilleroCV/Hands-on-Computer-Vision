@@ -1,68 +1,19 @@
 ---
-title: Hands-on Computer Vision
 sidebar: false
 format:
   html:
     toc: true
     page-layout: full
+    css: styles.css
 
 ---
 
-<style>
-    img:hover {
-        opacity: 1;
-	    -webkit-animation: flash 1s;
-	    animation: flash 1s;
-    }
 
-    @-webkit-keyframes flash {
-	    0% {
-	    	opacity: .4;
-	    }
-	    100% {
-	    	opacity: 1;
-	    }
-    }
-    @keyframes flash {
-	    0% {
-		    opacity: .4;
-	    }
-	    100% {
-		    opacity: 1;
-	    }
-    }
-
-
-
-    table tr:hover {
-        background-color: #e6f7ff;
-    }
-
-    .button:hover {
-        background-color: #e6f7ff;
-        color: black;
-        transition:
-    }
-
-    .professor-section {
-        display: flex;
-        align-items: center;
-        margin-top: 20px;
-        text-align: justify;
-    }
-
-    .professor-image {
-        width: 300px; /* Puedes ajustar el tamaño según sea necesario */
-        margin-right: 20px;
-        border-radius: 8px; /* Añadido para bordes redondeados en la imagen */
-    }
-
-    .professor-description {
-        max-width: 600px; /* Puedes ajustar el ancho máximo según sea necesario */
-    }
-
-</style>
-
+<div style="text-align: center;">
+   <h1 style="font-family:  'Reem Kufi Ink' ,sans-serif;">
+         Semillero&nbsp;&nbsp;Hands-on&nbsp;&nbsp;&nbsp;<span style="color: #c0d6e4">C</span>omputer <span style="color: #c0d6e4">V</span>ision
+    </h1>
+</div>
 
 <img src="/docs/images/ci.jpg" alt="" width="500" style="display: block; margin: auto;">
 <header>

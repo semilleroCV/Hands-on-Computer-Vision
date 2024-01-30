@@ -23,7 +23,7 @@ format:
 </section>
 
 <main>
-<section class="introduction">
+<section class="join">
     <h3>Explora el Futuro de la Visión por Computadora</h3>
     <p>
         Únete a nosotros en el Semillero "Hands-on Computer Vision" y sumérgete en una experiencia única que fusiona la teoría con la práctica en el fascinante mundo de la visión por computadora. Enfocándonos en temas avanzados como Computational Imaging, Thermal Imaging, Spectral Imaging, Depth, y más, este semillero te brindará la oportunidad de adentrarte en las tecnologías de vanguardia, utilizando herramientas como OpenCV y Python.
@@ -105,8 +105,9 @@ format:
     <a class="button" href="inscripcion.qmd">Inscribirse Ahora</a>
 </section>
 <h2>Realizado por:</h2>
+
 <section class="professor-section">
-    <img src="/docs/images/profesor.png" alt="Foto del Profesor" class="professor-image">
+    <img src="/docs/images/profesor.png" alt="" class="professor-image">
     <section class="professor-description">
         <h3>Hoover Fabian Rueda Chacón</h3>
         <p>
@@ -114,6 +115,44 @@ format:
         </p>
     </section>
 </section>
+<section class="student-section">
+    <section class="student-container">
+        <img src="/docs/images/fabian.png" alt="" class="student-image">
+        <section class="professor-description">
+            <h3>Nelson Fabian Pérez Pérez</h3>
+            <p>Estudiante de Ingenieria de Sistemas e Informática</p>
+        </section>
+    </section>
+    <section class="student-container">
+        <img src="/docs/images/cristian.jpg" alt="" class="student-image">
+        <section class="professor-description">
+            <h3>Cristhian Camilo Rey Rueda</h3>
+            <p>Estudiante de Ingenieria de Sistemas e Informática</p>
+        </section>
+    </section>
+    <section class="student-container">
+        <img src="/docs/images/ramiro.jpeg" alt="Foto del Profesor 4" class="student-image">
+        <section class="professor-description">
+            <h3>Ramiro Santiago Ávila Chacón</h3>
+            <p>Estudiante de Ingenieria de Sistemas e Informática</p>
+        </section>
+    </section>
+    <section class="student-container">
+        <img src="/docs/images/miguel.png" alt="Foto del Profesor 5" class="student-image">
+        <section class="professor-description">
+            <h3>Miguel Ángel Molina Garzón</h3>
+            <p>Estudiante de Ingenieria de Sistemas e Informática</p>
+        </section>
+    </section>
+    <section class="student-container">
+        <img src="/docs/images/profesor5.png" alt="Foto del Profesor 5" class="student-image">
+        <section class="professor-description">
+            <h3>Oscar</h3>
+            <p>Estudiante de Ingenieria de Sistemas e Informática</p>
+        </section>
+    </section>
+</section>
+
 
 
 </main>

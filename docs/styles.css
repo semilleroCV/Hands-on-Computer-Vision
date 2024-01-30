@@ -32,7 +32,7 @@ img:hover {
     }
 }
 
-.introduction {
+.join {
     background-color: #f7f7f7;
     padding: 20px;
     border-radius: 10px;
@@ -40,18 +40,37 @@ img:hover {
     margin: 20px 0;
 }
 
-.introduction h3 {
+.join h3 {
     color: #00827F;
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.introduction p {
+.join p {
     color: #333;
     font-size: 18px;
     line-height: 1.6;
 }
 
+.upcoming-sessions h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.upcoming-sessions table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px; /* Ajusta el radio según tus preferencias */
+    overflow: hidden;
+  }
+
+  .upcoming-sessions th {
+    background-color: #00827F;
+    color: #f2f2f2;
+  }
 
 table {
     width: 100%;
@@ -59,24 +78,24 @@ table {
     margin-top: 20px;
 }
 
-/* Estilo para las filas pares */
+thead {
+    background-color: #00827F;
+}
+
 tbody tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-/* Estilo para las filas impares */
 tbody tr:nth-child(odd) {
     background-color: #e1e1e1;
 }
 
-/* Estilo para las celdas */
 td {
     padding: 10px 15px;
     border: 1px solid #ddd;
     text-align: center;
 }
 
-/* Estilo para el encabezado de la tabla */
 th {
     padding: 12px 15px;
     border: 1px solid #ddd;
@@ -84,14 +103,13 @@ th {
     text-align: center;
 }
 
-/* Efecto de transición al pasar el ratón sobre las filas */
 tbody tr:hover {
     background-color: #CFECEC;
 }
 
 .join {
-    text-align: center; /* Alinea el contenido al centro */
-    margin-top: 50px; /* Agrega un margen superior para separar el botón del contenido superior */
+    text-align: center;
+    margin-top: 50px; 
 }
 
 .button {
@@ -116,19 +134,46 @@ tbody tr:hover {
 .professor-section {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 20px;
     text-align: justify;
+    margin-bottom: 50px;
+}
+.professor-image{
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
-.professor-image {
-    width: 300px; /* Puedes ajustar el tamaño según sea necesario */
+.student-image {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    border-radius: 50%;
     margin-right: 20px;
-    border-radius: 8px; /* Añadido para bordes redondeados en la imagen */
 }
+
 
 .professor-description {
-    max-width: 600px; /* Puedes ajustar el ancho máximo según sea necesario */
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    flex-grow: 1;
 }
+
+.student-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.student-container {
+    width: 300px; /* Puedes ajustar el ancho según sea necesario */
+    margin: 15px;
+    text-align: center;
+}
+
 
 .imagecarousel {
     position: relative;
@@ -158,3 +203,6 @@ tbody tr:hover {
     left: 0;
   }
 }
+
+ 
+

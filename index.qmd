@@ -11,21 +11,22 @@ format:
 
 <div style="text-align: center;">
    <h1 style="font-family:  'Reem Kufi Ink' ,sans-serif;">
-         Semillero&nbsp;&nbsp;Hands-on&nbsp;&nbsp; <span style="color: #c0d6e4">C</span>omputer <span style="color: #c0d6e4">V</span>ision
+         Semillero&nbsp;&nbsp;Hands-on&nbsp;&nbsp; <span style="color: #00827F">C</span>omputer <span style="color: #00827F">V</span>ision
     </h1>
 </div>
-
-<img src="/docs/images/ci.jpg" alt="" width="500" style="display: block; margin: auto;">
-<header>
-    <h2>De los Conceptos al Código</h2>
-</header>
-
+<section class="imagecarousel">
+      <img src="/docs/images/ci.jpg" alt="" />   
+      <img src="/docs/docs/images/depth.png" alt="" />   
+      <img src="/docs/docs/images/spectral.jpg" alt="" />  
+      <img src="/docs/docs/images/thermal.jpeg" alt="" />
+      <img src="/docs/docs/images/class.jpeg" alt="" />
+</section>
 
 <main>
 <section class="introduction">
-    <h3>Introducción al Semillero</h3>
+    <h3>Explora el Futuro de la Visión por Computadora</h3>
     <p>
-        Sumérgete en una experiencia práctica y teórica con nuestro semillero "Hands-on Computer Vision". Aprende y aplica conocimientos en visión por computadora para resolver problemas reales, utilizando tecnologías de punta como OpenCV y Python.
+        Únete a nosotros en el Semillero "Hands-on Computer Vision" y sumérgete en una experiencia única que fusiona la teoría con la práctica en el fascinante mundo de la visión por computadora. Enfocándonos en temas avanzados como Computational Imaging, Thermal Imaging, Spectral Imaging, Depth, y más, este semillero te brindará la oportunidad de adentrarte en las tecnologías de vanguardia, utilizando herramientas como OpenCV y Python.
     </p>
 </section>
 
@@ -109,7 +110,7 @@ format:
     <section class="professor-description">
         <h3>Hoover Fabian Rueda Chacón</h3>
         <p>
-            Graduado como ingeniero de Sistemas y como magíster en Ingeniería de Sistemas e Informática de la Universidad Industrial de Santander, Bucaramanga, Colombia, en 2009 y 2012. Recibió los títulos de Magíster y Doctor en Ingeniería Eléctrica y Computación de la Universidad de Delaware, Newark, EE. UU., en 2015 y 2017, patrocinado por Fulbright-Colciencias. De 2021 a 2022, fue Asociado Postdoctoral en el Departamento de Ingeniería Eléctrica y Computación de la Universidad de Boston, EE. UU.. Sus áreas principales de investigación son: procesamiento de imágenes, algoritmos, óptica computacional y optimización numérica.
+            Ingeniero de Sistemas e Informática, con maestría y doctorado en Ingeniería Eléctrica y Computación. Realizó su formación en Colombia y EE. UU., siendo Asociado Postdoctoral en la Universidad de Boston. Sus áreas de investigación incluyen procesamiento de imágenes, algoritmos, óptica computacional y optimización numérica.
         </p>
     </section>
 </section>

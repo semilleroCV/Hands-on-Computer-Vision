@@ -32,16 +32,86 @@ img:hover {
     }
 }
 
+.introduction {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.introduction h3 {
+    color: #00827F;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.introduction p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
 
 
-table tr:hover {
-    background-color: #e6f7ff;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo para las filas pares */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para las filas impares */
+tbody tr:nth-child(odd) {
+    background-color: #e1e1e1;
+}
+
+/* Estilo para las celdas */
+td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Estilo para el encabezado de la tabla */
+th {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Efecto de transición al pasar el ratón sobre las filas */
+tbody tr:hover {
+    background-color: #CFECEC;
+}
+
+.join {
+    text-align: center; /* Alinea el contenido al centro */
+    margin-top: 50px; /* Agrega un margen superior para separar el botón del contenido superior */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00827F;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .button:hover {
-    background-color: #e6f7ff;
-    color: black;
+    background-color: #005E5A;
+    color: white;
 }
+
 
 .professor-section {
     display: flex;
@@ -58,4 +128,33 @@ table tr:hover {
 
 .professor-description {
     max-width: 600px; /* Puedes ajustar el ancho máximo según sea necesario */
+}
+
+.imagecarousel {
+    position: relative;
+    height: 233px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.imagecarousel img {
+  margin: 0px 25px;
+  box-shadow: 2px 2px 8px #8a8a8a;
+}
+
+.imagecarousel {
+  animation: bannermove 50s linear infinite;
+}
+
+@keyframes bannermove {
+   0% {
+    left: 0;
+  }
+  50% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
 }

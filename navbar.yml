@@ -1,7 +1,7 @@
 website:
   navbar:
     logo: "logo.png"
-    background: "#C0D6E4"
+    background: "#00827F"
     text-color: "#333"  # Color del texto
     height: "90px"  # Altura del Navbar
     box-shadow: "0px 2px 5px rgba(0, 0, 0, 0.1)"  # Sombra ligera

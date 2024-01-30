@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Reem+Kufi+Ink&display=swap');
 
+
+
+* {
+    overflow-x: hidden;
+}
+
+h1 {
+    overflow-y:hidden;
+}
+
 h2{
     border-bottom: 0px !important;
 }
@@ -7,12 +17,15 @@ h2{
 main{
 
     margin-top: 0px !important ; 
+    overflow-y: hidden;
+    
 }
 
 img:hover {
     opacity: 1;
     -webkit-animation: flash 1s;
     animation: flash 1s;
+
 }
 
 @-webkit-keyframes flash {
@@ -130,7 +143,6 @@ tbody tr:hover {
     color: white;
 }
 
-
 .professor-section {
     display: flex;
     align-items: center;
@@ -146,6 +158,7 @@ tbody tr:hover {
     object-fit: cover;
     border-radius: 50%;
     margin-right: 20px;
+    
 }
 
 .student-image {
@@ -154,55 +167,75 @@ tbody tr:hover {
     object-fit: cover;
     border-radius: 50%;
     margin-right: 20px;
+    
 }
 
 
 .professor-description {
-    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    max-width: 800px;
     flex-grow: 1;
+    
 }
 
 .student-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    overflow-x: hidden;
+    
 }
 
 .student-container {
-    width: 300px; /* Puedes ajustar el ancho según sea necesario */
+    width: 300px; 
     margin: 15px;
     text-align: center;
+    overflow-x: hidden;
+    
 }
-
 
 .imagecarousel {
     position: relative;
-    height: 233px;
-    margin-bottom: 30px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
     display: flex;
-    width: 100%;
+    width: 8000px;
+    
 }
 
 .imagecarousel img {
-  margin: 0px 25px;
-  box-shadow: 2px 2px 8px #8a8a8a;
+    margin: 0px 10px;
+    box-shadow: 2px 2px 8px #8a8a8a;
 }
 
 .imagecarousel {
-  animation: bannermove 50s linear infinite;
+    animation: bannermove 50s linear infinite;
+    
 }
 
 @keyframes bannermove {
-   0% {
-    left: 0;
-  }
-  50% {
-    left: -100%;
-  }
-  100% {
-    left: 0;
-  }
+    0% {
+        left: 0;
+    }
+    50% {
+        left: -100%;
+    }
+    100% {
+        left: 0;
+    }
 }
 
- 
+@media (max-width: 768px) {
+    .imagecarousel img {
+        margin: 0px 5px; /* Adjust the margin as needed */
+        box-shadow: 2px 2px 8px #8a8a8a;
+    }    
 
+    .imagecarousel {
+        position: relative;
+        height: 130px;
+        display: flex;
+        width: 920px; /* Set a max-width for the image carousel */
+        animation: bannermove 15s linear infinite; /* Adjust the duration for smaller screens */
+    }
+}

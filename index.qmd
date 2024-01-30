@@ -102,8 +102,10 @@ format:
     <p>
         ¿Listo para unirte? Inscríbete y comienza a explorar el apasionante campo de la visión por computadora con nosotros.
     </p>
+    <p style="color: red;">Fecha límite de inscripción: 31 de marzo de 2024</p> 
     <a class="button" href="inscripcion.qmd">Inscribirse Ahora</a>
 </section>
+
 <h2>Realizado por:</h2>
 
 <section class="professor-section">

@@ -14,6 +14,10 @@ h2{
     border-bottom: 0px !important;
 }
 
+small {
+    font-weight: lighter;
+}
+
 main{
 
     margin-top: 0px !important ; 
@@ -64,11 +68,16 @@ img:hover {
     font-size: 18px;
     line-height: 1.6;
 }
+.upcoming-sessions {
+    border-collapse: collapse;
+    border-radius: 10px; 
+}
 
 .upcoming-sessions h3 {
     text-align: center;
     font-size: 24px;
     margin-bottom: 10px;
+    
 
 }
 
@@ -76,7 +85,7 @@ img:hover {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    border-radius: 10px; /* Ajusta el radio según tus preferencias */
+    border-radius: 10px; 
     overflow: hidden;
   }
 
@@ -124,6 +133,15 @@ tbody tr:hover {
     text-align: center;
     margin-top: 50px; 
 }
+.deadline{
+    border: groove red;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
 
 .button {
     display: inline-block;
@@ -152,6 +170,8 @@ tbody tr:hover {
     text-align: justify;
     margin-bottom: 50px;
 }
+
+
 .professor-image{
     width: 200px; 
     height: 200px; 
@@ -170,11 +190,9 @@ tbody tr:hover {
     
 }
 
-
 .professor-description {
     max-width: 800px;
-    flex-grow: 1;
-    
+    flex-grow: 1;    
 }
 
 .student-section {
@@ -186,7 +204,7 @@ tbody tr:hover {
 }
 
 .student-container {
-    width: 300px; 
+    width: 330px; 
     margin: 15px;
     text-align: center;
     overflow-x: hidden;

@@ -102,7 +102,7 @@ format:
     <p>
         ¿Listo para unirte? Inscríbete y comienza a explorar el apasionante campo de la visión por computadora con nosotros.
     </p>
-    <p style="color: red;">Fecha límite de inscripción: 31 de marzo de 2024</p> 
+    <p style="color: red" class="deadline">Fecha límite de inscripción: 31 de marzo de 2024</p> 
     <a class="button" href="inscripcion.qmd">Inscribirse Ahora</a>
 </section>
 
@@ -133,21 +133,21 @@ format:
         </section>
     </section>
     <section class="student-container">
-        <img src="/docs/images/ramiro.jpeg" alt="Foto del Profesor 4" class="student-image">
+        <img src="/docs/images/ramiro.jpeg" alt="" class="student-image">
         <section class="professor-description">
             <h3>Ramiro Santiago Ávila Chacón</h3>
             <p>Estudiante de Ingenieria de Sistemas e Informática</p>
         </section>
     </section>
     <section class="student-container">
-        <img src="/docs/images/miguel.png" alt="Foto del Profesor 5" class="student-image">
+        <img src="/docs/images/miguel.png" alt="" class="student-image">
         <section class="professor-description">
             <h3>Miguel Ángel Molina Garzón</h3>
             <p>Estudiante de Ingenieria de Sistemas e Informática</p>
         </section>
     </section>
     <section class="student-container">
-        <img src="/docs/images/profesor5.png" alt="Foto del Profesor 5" class="student-image">
+        <img src="/docs/images/profesor5.png" alt="" class="student-image">
         <section class="professor-description">
             <h3>Oscar</h3>
             <p>Estudiante de Ingenieria de Sistemas e Informática</p>
@@ -160,5 +160,5 @@ format:
 </main>
 
 <footer>
-    <p>Para consultas, contacta a <a href="mailto:contacto@handson-cv.edu">contacto@handson-cv.edu</a>.</p>
+    <small>Para consultas, contacta a <a href="mailto:contacto@handson-cv.edu">contacto@handson-cv.edu</a>.</small>
 </footer>

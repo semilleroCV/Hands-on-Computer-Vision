@@ -15,11 +15,11 @@ format:
     </h1>
 </div>
 <section class="imagecarousel">
-      <img src="/docs/images/ci.jpg" alt="" />   
-      <img src="/docs/docs/images/depth.png" alt="" />   
-      <img src="/docs/docs/images/spectral.jpg" alt="" />  
-      <img src="/docs/docs/images/thermal.jpeg" alt="" />
-      <img src="/docs/docs/images/class.jpeg" alt="" />
+      <img src="/images/ci.jpg" alt="" />   
+      <img src="/images/depth.png" alt="" />   
+      <img src="/images/spectral.jpg" alt="" />  
+      <img src="/images/thermal.jpeg" alt="" />
+      <img src="/images/class.jpeg" alt="" />
 </section>
 
 <main>
@@ -119,35 +119,35 @@ format:
 </section>
 <section class="student-section">
     <section class="student-container">
-        <img src="/docs/images/fabian.png" alt="" class="student-image">
+        <img src="/images/fabian.png" alt="" class="student-image">
         <section class="student-description">
             <h3>Nelson Fabian Pérez Pérez</h3>
             <p>Estudiante de Ingenieria de Sistemas e Informática</p>
         </section>
     </section>
     <section class="student-container">
-        <img src="/docs/images/cristian.jpg" alt="" class="student-image">
+        <img src="/images/cristian.jpg" alt="" class="student-image">
         <section class="student-description">
             <h3>Cristhian Camilo Rey Rueda</h3>
             <p>Estudiante de Ingenieria de Sistemas e Informática</p>
         </section>
     </section>
     <section class="student-container">
-        <img src="/docs/images/ramiro.jpeg" alt="" class="student-image">
+        <img src="/images/ramiro.jpeg" alt="" class="student-image">
         <section class="student-description">
             <h3>Ramiro Santiago Ávila Chacón</h3>
             <p>Estudiante de Ingenieria de Sistemas e Informática</p>
         </section>
     </section>
     <section class="student-container">
-        <img src="/docs/images/miguel.png" alt="" class="student-image">
+        <img src="/images/miguel.png" alt="" class="student-image">
         <section class="student-description">
             <h3>Miguel Ángel Molina Garzón</h3>
             <p>Estudiante de Ingenieria de Sistemas e Informática</p>
         </section>
     </section>
     <section class="student-container">
-        <img src="/docs/images/profesor5.png" alt="" class="student-image">
+        <img src="/images/profesor5.png" alt="" class="student-image">
         <section class="student-description">
             <h3>Oscar</h3>
             <p>Estudiante de Ingenieria de Sistemas e Informática</p>

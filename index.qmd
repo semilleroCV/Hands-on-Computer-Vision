@@ -109,7 +109,7 @@ format:
 <h2>Realizado por:</h2>
 
 <section class="professor-section">
-    <img src="/docs/images/profesor.png" alt="" class="professor-image">
+    <img src="/images/profesor.png" alt="" class="professor-image">
     <section class="professor-description">
         <h3>Hoover Fabian Rueda Chacón</h3>
         <p>

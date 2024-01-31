@@ -1,61 +1,267 @@
-@import url('https://fonts.googleapis.com/css2?family=Honk&family=Reem+Kufi+Ink&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Honk&family=Reem+Kufi+Ink&display=swap');
 
-h2{
-    border-bottom: 0px !important;
-}
 
-main{
 
-    margin-top: 0px !important ; 
-}
-
-img:hover {
-    opacity: 1;
-    -webkit-animation: flash 1s;
-    animation: flash 1s;
-}
-
-@-webkit-keyframes flash {
-    0% {
-        opacity: .4;
+    * {
+        overflow-x: hidden;
     }
-    100% {
+
+    h1 {
+        overflow-y:hidden;
+    }
+
+    h2{
+        border-bottom: 0px !important;
+    }
+
+    small {
+        font-weight: lighter;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    main{
+
+        margin-top: 0px !important ; 
+        overflow-y: hidden;
+        
+    }
+
+    img:hover {
         opacity: 1;
+        -webkit-animation: flash 1s;
+        animation: flash 1s;
+
     }
-}
-@keyframes flash {
-    0% {
-        opacity: .4;
+
+    @-webkit-keyframes flash {
+        0% {
+            opacity: .4;
+        }
+        100% {
+            opacity: 1;
+        }
     }
-    100% {
-        opacity: 1;
+    @keyframes flash {
+        0% {
+            opacity: .4;
+        }
+        100% {
+            opacity: 1;
+        }
     }
-}
+
+    .join {
+        background-color: #f7f7f7;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .join h3 {
+        color: #00827F;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .join p {
+        color: #333;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    .upcoming-sessions {
+        border-collapse: collapse;
+        border-radius: 10px; 
+        -moz-border-radius: 10px;
+    }
+
+    .upcoming-sessions h3 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .upcoming-sessions table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        border-radius: 10px;
+        overflow: hidden;
+        border-style: hidden;
+    }
+
+    .upcoming-sessions th {
+        background-color: #00827F;
+        color: #f2f2f2;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    thead {
+        background-color: #00827F;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: #e1e1e1;
+    }
+
+    td {
+        padding: 10px 15px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    th {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        background-color: #f2f2f2;
+        text-align: center;
+    }
+
+    tbody tr:hover {
+        background-color: #CFECEC;
+    }
+
+    .join {
+        text-align: center;
+        margin-top: 50px; 
+    }
+    .deadline{
+        border: groove red;
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        background-color: #00827F;
+        color: white;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+        background-color: #005E5A;
+        color: white;
+    }
+
+    .professor-section {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+        text-align: justify;
+        margin-bottom: 50px;
+    }
 
 
+    .professor-image{
+        width: 200px; 
+        height: 200px; 
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 20px;
+        
+    }
 
-table tr:hover {
-    background-color: #e6f7ff;
-}
+    .student-image {
+        width: 150px; 
+        height: 150px; 
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 20px;
+        
+    }
 
-.button:hover {
-    background-color: #e6f7ff;
-    color: black;
-}
+    .professor-description {
+        max-width: 800px;
+        flex-grow: 1;    
+    }
 
-.professor-section {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    text-align: justify;
-}
+    .student-description {
+        width: 327px;
+        flex-grow: 1;    
+    }
 
-.professor-image {
-    width: 300px; /* Puedes ajustar el tamaño según sea necesario */
-    margin-right: 20px;
-    border-radius: 8px; /* Añadido para bordes redondeados en la imagen */
-}
+    .student-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-x: hidden;
+        
+    }
 
-.professor-description {
-    max-width: 600px; /* Puedes ajustar el ancho máximo según sea necesario */
-}
+    .student-container {
+        width: 330px; 
+        margin: 15px;
+        text-align: center;
+        overflow-x: hidden;
+        
+    }
+
+    .imagecarousel {
+        position: relative;
+        height: 250px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        width: 8000px;
+        
+    }
+
+    .imagecarousel img {
+        margin: 0px 5px;
+        box-shadow: 2px 2px 8px #8a8a8a;
+    }
+
+    .imagecarousel {
+        animation: bannermove 50s linear infinite;
+        
+    }
+
+    @keyframes bannermove {
+        0% {
+            left: 0;
+        }
+        50% {
+            left: -100%;
+        }
+        100% {
+            left: 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .imagecarousel img {
+            margin: 0px 5px; /* Adjust the margin as needed */
+            box-shadow: 2px 2px 8px #8a8a8a;
+        }    
+
+        .imagecarousel {
+            position: relative;
+            height: 130px;
+            display: flex;
+            width: 920px; /* Set a max-width for the image carousel */
+            animation: bannermove 15s linear infinite; /* Adjust the duration for smaller screens */
+        }
+    }

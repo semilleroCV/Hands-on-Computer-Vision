@@ -16,6 +16,9 @@ h2{
 
 small {
     font-weight: lighter;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 main{
@@ -192,6 +195,11 @@ tbody tr:hover {
 
 .professor-description {
     max-width: 800px;
+    flex-grow: 1;    
+}
+
+.student-description {
+    width: 327px;
     flex-grow: 1;    
 }
 

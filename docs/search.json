@@ -58,13 +58,12 @@
   {
     "objectID": "Sesiones/sesion1.html",
     "href": "Sesiones/sesion1.html",
-    "title": "Getting started",
+    "title": "Piloto",
     "section": "",
-    "text": "In this session, we’re diving straight into the core of image formation – within the first few moments, you’ll engage with an interactive example that demonstrates the fundamental principles of image capturing and processing. These principles form the foundation of what drives modern computer vision technology, offering a glimpse into the intricate dance of light and sensors that was at the forefront of computational imaging just a decade ago.\n\n\n\nslides de la sesion*\n\n\n\n\n\n\nNew!\n\n\n\nEsta sesion se realizara el dia xx a las xx\n\n\n\nFormación de Imágenes en Python\nEn esta sesión, exploraremos los fundamentos de la formación de imágenes utilizando Python. Aprenderemos cómo cargar, visualizar y manipular imágenes digitales.\n\n\ncode\n# Importar las librerías necesarias\nimport matplotlib.pyplot as plt\nfrom PIL import Image\nimport numpy as np\n\n# Cargar una imagen de ejemplo\nimage_path = '../images/lenna.jpeg'  # Reemplaza con la ruta a tu imagen\nimage = Image.open(image_path)\n\n# Mostrar la imagen\nplt.imshow(image)\nplt.title('Imagen de Ejemplo')\nplt.axis('off')  # Ocultar los ejes\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nAnálisis de la Imagen\nAhora, vamos a convertir la imagen a escala de grises y mostrar su histograma para entender la distribución de los píxeles.\n\n\ncode\n# Convertir la imagen a escala de grises\ngray_image = image.convert('L')\n\n# Mostrar la imagen en escala de grises\nplt.imshow(gray_image, cmap='gray')\nplt.title('Imagen en Escala de Grises')\nplt.axis('off')\nplt.show()\n\n# Calcular y mostrar el histograma\nhistogram = np.array(gray_image).flatten()\nplt.hist(histogram, bins=50, range=[0,255], density=True, color='gray', alpha=0.75)\nplt.title('Histograma de la Imagen en Escala de Grises')\nplt.xlabel('Intensidad de Píxel')\nplt.ylabel('Frecuencia Normalizada')\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nexitosamente se visualizo el histograma y la imagen en escala de grises\nejemplo de ecuacion:\n\\[\n\\begin{equation}\nY = H \\cdot x\n\\end{equation}\n\\]\nDonde \\(Y\\) es la imagen de salida, \\(H\\) es el kernel de convolución y \\(x\\) es la imagen de entrada.\n\n\ncode\nimport numpy as np\n\n# Definir el kernel de convolución\nkernel = np.array([[0, 0, 0],\n                   [0, 1, 0],\n                   [0, 0, 0]])\n\n# Convertir la imagen a un arreglo de numpy\nprint(kernel)\n\n\n[[0 0 0]\n [0 1 0]\n [0 0 0]]",
+    "text": "In this session, we’re diving straight into the core of image formation – within the first few moments, you’ll engage with an interactive example that demonstrates the fundamental principles of image capturing and processing. These principles form the foundation of what drives modern computer vision technology, offering a glimpse into the intricate dance of light and sensors that was at the forefront of computational imaging just a decade ago.\n\n\n\nslides de la sesion*\n\n\n\n\n\n\nNew!\n\n\n\nEsta sesion se realizara el dia xx a las xx",
     "crumbs": [
       "Inicio",
-      "Intro Computer Vision",
-      "Getting started"
+      "Piloto"
     ]
   },
   {
@@ -77,56 +76,56 @@
   {
     "objectID": "curso.html",
     "href": "curso.html",
-    "title": "Bienvenido al Semillero “Hands-on Computer Vision”",
+    "title": "Semillero “Hands-on Computer Vision”",
     "section": "",
     "text": "Bienvenido al semillero Hands-on Computer Vision, un viaje emocionante y práctico a través del vasto mundo de la visión por computadora y el procesamiento de imágenes. Aquí, no solo aprenderás los conceptos teóricos, sino que también tendrás la oportunidad de aplicarlos en proyectos reales y desafiantes.",
     "crumbs": [
       "Inicio",
-      "Bienvenido al Semillero \"Hands-on Computer Vision\""
+      "Semillero \"Hands-on Computer Vision\""
     ]
   },
   {
     "objectID": "curso.html#qué-te-espera",
     "href": "curso.html#qué-te-espera",
-    "title": "Bienvenido al Semillero “Hands-on Computer Vision”",
+    "title": "Semillero “Hands-on Computer Vision”",
     "section": "¿Qué te espera?",
     "text": "¿Qué te espera?\nPrepárate para sumergirte en sesiones interactivas y prácticas donde exploraremos temas como:\n\nSegmentación de imágenes basada en propiedades de los materiales.\nProcesamiento de imágenes RGB+D para la comprensión de escenas y navegación.\nUso de Lidar/ToF para rangos de medición.\nImágenes térmicas y sus aplicaciones.\nDesarrollo de software para productos basados en Apple, utilizando sensores integrados.\nTinyML: implementación de ML en hardware como Arduino/Raspberry PI.\nProcesamiento de imágenes en la web.\n\nCada sesión está diseñada para construir una base sólida y avanzar hacia temas más complejos, garantizando un aprendizaje integral y práctico.",
     "crumbs": [
       "Inicio",
-      "Bienvenido al Semillero \"Hands-on Computer Vision\""
+      "Semillero \"Hands-on Computer Vision\""
     ]
   },
   {
     "objectID": "curso.html#herramientas-y-tecnologías",
     "href": "curso.html#herramientas-y-tecnologías",
-    "title": "Bienvenido al Semillero “Hands-on Computer Vision”",
+    "title": "Semillero “Hands-on Computer Vision”",
     "section": "Herramientas y Tecnologías",
     "text": "Herramientas y Tecnologías\nVamos a utilizar tecnologías y herramientas de vanguardia, incluyendo:\n\nLibrerías y lenguajes: OpenCV, Python, Swift, y más.\nPlataformas colaborativas como GitHub y Colab para un aprendizaje interactivo y colaborativo.\nKaggle y otras plataformas para retos y competencias emocionantes.",
     "crumbs": [
       "Inicio",
-      "Bienvenido al Semillero \"Hands-on Computer Vision\""
+      "Semillero \"Hands-on Computer Vision\""
     ]
   },
   {
     "objectID": "curso.html#proyecto-incremental",
     "href": "curso.html#proyecto-incremental",
-    "title": "Bienvenido al Semillero “Hands-on Computer Vision”",
+    "title": "Semillero “Hands-on Computer Vision”",
     "section": "Proyecto Incremental",
     "text": "Proyecto Incremental\nA lo largo del semillero, trabajarás en un proyecto incremental, donde cada sesión contribuirá a un proyecto final completo y funcional. Este enfoque práctico garantiza que no solo aprendas los conceptos, sino que también ganes experiencia práctica aplicándolos.",
     "crumbs": [
       "Inicio",
-      "Bienvenido al Semillero \"Hands-on Computer Vision\""
+      "Semillero \"Hands-on Computer Vision\""
     ]
   },
   {
     "objectID": "curso.html#únete-a-nosotros",
     "href": "curso.html#únete-a-nosotros",
-    "title": "Bienvenido al Semillero “Hands-on Computer Vision”",
+    "title": "Semillero “Hands-on Computer Vision”",
     "section": "Únete a Nosotros",
     "text": "Únete a Nosotros\n¿Listo para embarcarte en esta aventura de aprendizaje y descubrimiento? Sigue navegando por nuestro sitio web para obtener más detalles sobre cada sesión y cómo puedes inscribirte.\n¡Estamos emocionados de tenerte a bordo y no podemos esperar para ver lo que crearemos juntos en el mundo de la visión por computadora!\n\n¡Sigue explorando y preparándote para una experiencia de aprendizaje única en el semillero “Hands-on Computer Vision”!",
     "crumbs": [
       "Inicio",
-      "Bienvenido al Semillero \"Hands-on Computer Vision\""
+      "Semillero \"Hands-on Computer Vision\""
     ]
   },
   {
@@ -163,5 +162,104 @@
     "title": "UAT for NbAgg backend.",
     "section": "UAT 13 - Animation",
     "text": "UAT 13 - Animation\nThe following should generate an animated line:\n\nimport matplotlib.animation as animation\nimport numpy as np\n\nfig, ax = plt.subplots()\n\nx = np.arange(0, 2*np.pi, 0.01)        # x-array\nline, = ax.plot(x, np.sin(x))\n\ndef animate(i):\n    line.set_ydata(np.sin(x+i/10.0))  # update the data\n    return line,\n\n#Init only required for blitting to give a clean slate.\ndef init():\n    line.set_ydata(np.ma.array(x, mask=True))\n    return line,\n\nani = animation.FuncAnimation(fig, animate, np.arange(1, 200), init_func=init,\n                              interval=100., blit=True)\nplt.show()\n\n\nUAT 14 - Keyboard shortcuts in IPython after close of figure\nAfter closing the previous figure (with the close button above the figure) the IPython keyboard shortcuts should still function.\n\n\nUAT 15 - Figure face colours\nThe nbagg honours all colours apart from that of the figure.patch. The two plots below should produce a figure with a red background. There should be no yellow figure.\n\nimport matplotlib\nmatplotlib.rcParams.update({'figure.facecolor': 'red',\n                            'savefig.facecolor': 'yellow'})\nplt.figure()\nplt.plot([3, 2, 1])\n\nplt.show()\n\n\n\nUAT 16 - Events\nPressing any keyboard key or mouse button (or scrolling) should cycle the line while the figure has focus. The figure should have focus by default when it is created and re-gain it by clicking on the canvas. Clicking anywhere outside of the figure should release focus, but moving the mouse out of the figure should not release focus.\n\nimport itertools\nfig, ax = plt.subplots()\nx = np.linspace(0,10,10000)\ny = np.sin(x)\nln, = ax.plot(x,y)\nevt = []\ncolors = iter(itertools.cycle(['r', 'g', 'b', 'k', 'c']))\ndef on_event(event):\n    if event.name.startswith('key'):\n        fig.suptitle('%s: %s' % (event.name, event.key))\n    elif event.name == 'scroll_event':\n        fig.suptitle('%s: %s' % (event.name, event.step))\n    else:\n        fig.suptitle('%s: %s' % (event.name, event.button))\n    evt.append(event)\n    ln.set_color(next(colors))\n    fig.canvas.draw()\n    fig.canvas.draw_idle()\n\nfig.canvas.mpl_connect('button_press_event', on_event)\nfig.canvas.mpl_connect('button_release_event', on_event)\nfig.canvas.mpl_connect('scroll_event', on_event)\nfig.canvas.mpl_connect('key_press_event', on_event)\nfig.canvas.mpl_connect('key_release_event', on_event)\n\nplt.show()\n\n\n\nUAT 17 - Timers\nSingle-shot timers follow a completely different code path in the nbagg backend than regular timers (such as those used in the animation example above.) The next set of tests ensures that both “regular” and “single-shot” timers work properly.\nThe following should show a simple clock that updates twice a second:\n\nimport time\n\nfig, ax = plt.subplots()\ntext = ax.text(0.5, 0.5, '', ha='center')\n\ndef update(text):\n    text.set(text=time.ctime())\n    text.axes.figure.canvas.draw()\n    \ntimer = fig.canvas.new_timer(500, [(update, [text], {})])\ntimer.start()\nplt.show()\n\nHowever, the following should only update once and then stop:\n\nfig, ax = plt.subplots()\ntext = ax.text(0.5, 0.5, '', ha='center') \ntimer = fig.canvas.new_timer(500, [(update, [text], {})])\n\ntimer.single_shot = True\ntimer.start()\n\nplt.show()\n\nAnd the next two examples should never show any visible text at all:\n\nfig, ax = plt.subplots()\ntext = ax.text(0.5, 0.5, '', ha='center')\ntimer = fig.canvas.new_timer(500, [(update, [text], {})])\n\ntimer.start()\ntimer.stop()\n\nplt.show()\n\n\nfig, ax = plt.subplots()\ntext = ax.text(0.5, 0.5, '', ha='center')\ntimer = fig.canvas.new_timer(500, [(update, [text], {})])\n\ntimer.single_shot = True\ntimer.start()\ntimer.stop()\n\nplt.show()\n\n\n\nUAT 18 - stopping figure when removed from DOM\nWhen the div that contains from the figure is removed from the DOM the figure should shut down it’s comm, and if the python-side figure has no more active comms, it should destroy the figure. Repeatedly running the cell below should always have the same figure number\n\nfig, ax = plt.subplots()\nax.plot(range(5))\nplt.show()\n\nRunning the cell below will re-show the figure. After this, re-running the cell above should result in a new figure number.\n\nfig.canvas.manager.reshow()\n\n\n\nUAT 19 - Blitting\nClicking on the figure should plot a green horizontal line moving up the axes.\n\nimport itertools\n\ncnt = itertools.count()\nbg = None\n\ndef onclick_handle(event):\n    \"\"\"Should draw elevating green line on each mouse click\"\"\"\n    global bg\n    if bg is None:\n        bg = ax.figure.canvas.copy_from_bbox(ax.bbox) \n    ax.figure.canvas.restore_region(bg)\n\n    cur_y = (next(cnt) % 10) * 0.1\n    ln.set_ydata([cur_y, cur_y])\n    ax.draw_artist(ln)\n    ax.figure.canvas.blit(ax.bbox)\n\nfig, ax = plt.subplots()\nax.plot([0, 1], [0, 1], 'r')\nln, = ax.plot([0, 1], [0, 0], 'g', animated=True)\nplt.show()\nax.figure.canvas.draw()\n\nax.figure.canvas.mpl_connect('button_press_event', onclick_handle)"
+  },
+  {
+    "objectID": "Sesiones/sesion2.html",
+    "href": "Sesiones/sesion2.html",
+    "title": "Generalidad imagenes",
+    "section": "",
+    "text": "In this session, we’re diving straight into the core of image formation – within the first few moments, you’ll engage with an interactive example that demonstrates the fundamental principles of image capturing and processing. These principles form the foundation of what drives modern computer vision technology, offering a glimpse into the intricate dance of light and sensors that was at the forefront of computational imaging just a decade ago.\n\n\n\nslides de la sesion*\n\n\n\n\n\n\nNew!\n\n\n\nEsta sesion se realizara el dia xx a las xx",
+    "crumbs": [
+      "Inicio",
+      "Generalidad imagenes"
+    ]
+  },
+  {
+    "objectID": "Sesiones/sesion3.html",
+    "href": "Sesiones/sesion3.html",
+    "title": "Estimacion pasiva de la profundidad",
+    "section": "",
+    "text": "In this session, we’re diving straight into the core of image formation – within the first few moments, you’ll engage with an interactive example that demonstrates the fundamental principles of image capturing and processing. These principles form the foundation of what drives modern computer vision technology, offering a glimpse into the intricate dance of light and sensors that was at the forefront of computational imaging just a decade ago.\n\n\n\nslides de la sesion*\n\n\n\n\n\n\nNew!\n\n\n\nEsta sesion se realizara el dia xx a las xx",
+    "crumbs": [
+      "Inicio",
+      "Estimacion *pasiva* de la profundidad"
+    ]
+  },
+  {
+    "objectID": "Sesiones/sesion4.html",
+    "href": "Sesiones/sesion4.html",
+    "title": "Estimacion pasiva de la profundidad",
+    "section": "",
+    "text": "In this session, we’re diving straight into the core of image formation – within the first few moments, you’ll engage with an interactive example that demonstrates the fundamental principles of image capturing and processing. These principles form the foundation of what drives modern computer vision technology, offering a glimpse into the intricate dance of light and sensors that was at the forefront of computational imaging just a decade ago.\n\n\n\nslides de la sesion*\n\n\n\n\n\n\nNew!\n\n\n\nEsta sesion se realizara el dia xx a las xx",
+    "crumbs": [
+      "Inicio",
+      "Estimacion *pasiva* de la profundidad"
+    ]
+  },
+  {
+    "objectID": "Sesiones/sesion5.html",
+    "href": "Sesiones/sesion5.html",
+    "title": "Estimacion activa de la profundidad",
+    "section": "",
+    "text": "In this session, we’re diving straight into the core of image formation – within the first few moments, you’ll engage with an interactive example that demonstrates the fundamental principles of image capturing and processing. These principles form the foundation of what drives modern computer vision technology, offering a glimpse into the intricate dance of light and sensors that was at the forefront of computational imaging just a decade ago.\n\n\n\nslides de la sesion*\n\n\n\n\n\n\nNew!\n\n\n\nEsta sesion se realizara el dia xx a las xx",
+    "crumbs": [
+      "Inicio",
+      "Estimacion *activa* de la profundidad"
+    ]
+  },
+  {
+    "objectID": "Sesiones/sesion6.html",
+    "href": "Sesiones/sesion6.html",
+    "title": "Deep learning",
+    "section": "",
+    "text": "In this session, we’re diving straight into the core of image formation – within the first few moments, you’ll engage with an interactive example that demonstrates the fundamental principles of image capturing and processing. These principles form the foundation of what drives modern computer vision technology, offering a glimpse into the intricate dance of light and sensors that was at the forefront of computational imaging just a decade ago.\n\n\n\nslides de la sesion*\n\n\n\n\n\n\nNew!\n\n\n\nEsta sesion se realizara el dia xx a las xx",
+    "crumbs": [
+      "Inicio",
+      "Deep learning"
+    ]
+  },
+  {
+    "objectID": "Sesiones/sesion7.html",
+    "href": "Sesiones/sesion7.html",
+    "title": "Segemntacion de materiales",
+    "section": "",
+    "text": "In this session, we’re diving straight into the core of image formation – within the first few moments, you’ll engage with an interactive example that demonstrates the fundamental principles of image capturing and processing. These principles form the foundation of what drives modern computer vision technology, offering a glimpse into the intricate dance of light and sensors that was at the forefront of computational imaging just a decade ago.\n\n\n\nslides de la sesion*\n\n\n\n\n\n\nNew!\n\n\n\nEsta sesion se realizara el dia xx a las xx",
+    "crumbs": [
+      "Inicio",
+      "Segemntacion de materiales"
+    ]
+  },
+  {
+    "objectID": "Sesiones/sesion8.html",
+    "href": "Sesiones/sesion8.html",
+    "title": "Imagenes termicas",
+    "section": "",
+    "text": "In this session, we’re diving straight into the core of image formation – within the first few moments, you’ll engage with an interactive example that demonstrates the fundamental principles of image capturing and processing. These principles form the foundation of what drives modern computer vision technology, offering a glimpse into the intricate dance of light and sensors that was at the forefront of computational imaging just a decade ago.\n\n\n\nslides de la sesion*\n\n\n\n\n\n\nNew!\n\n\n\nEsta sesion se realizara el dia xx a las xx",
+    "crumbs": [
+      "Inicio",
+      "Imagenes termicas"
+    ]
+  },
+  {
+    "objectID": "Sesiones/sesion9.html",
+    "href": "Sesiones/sesion9.html",
+    "title": "TinyML",
+    "section": "",
+    "text": "In this session, we’re diving straight into the core of image formation – within the first few moments, you’ll engage with an interactive example that demonstrates the fundamental principles of image capturing and processing. These principles form the foundation of what drives modern computer vision technology, offering a glimpse into the intricate dance of light and sensors that was at the forefront of computational imaging just a decade ago.\n\n\n\nslides de la sesion*\n\n\n\n\n\n\nNew!\n\n\n\nEsta sesion se realizara el dia xx a las xx",
+    "crumbs": [
+      "Inicio",
+      "TinyML"
+    ]
+  },
+  {
+    "objectID": "Sesiones/sesion10.html",
+    "href": "Sesiones/sesion10.html",
+    "title": "Proyectos / Posters",
+    "section": "",
+    "text": "In this session, we’re diving straight into the core of image formation – within the first few moments, you’ll engage with an interactive example that demonstrates the fundamental principles of image capturing and processing. These principles form the foundation of what drives modern computer vision technology, offering a glimpse into the intricate dance of light and sensors that was at the forefront of computational imaging just a decade ago.\n\n\n\nslides de la sesion*\n\n\n\n\n\n\nNew!\n\n\n\nEsta sesion se realizara el dia xx a las xx",
+    "crumbs": [
+      "Inicio",
+      "Proyectos / Posters"
+    ]
   }
 ]

@@ -2,21 +2,17 @@ website:
   sidebar:
     contents:
       - curso.qmd
-      - text: "---"
-      - section: Intro Computer Vision
-        contents:
-          - Sesiones/sesion1.qmd
-          - Sesiones/sesion2.qmd
-          - Sesiones/sesion3.qmd
-      - text: "---"
-      - section: Spectral Imaging
-        contents:
-          - Sesiones/sesion4.qmd
-          - Sesiones/sesion5.qmd
-          - Sesiones/sesion6.qmd
-      - text: "---"
-      - section: Depth Imaging
-        contents:
-          - Sesiones/sesion7.qmd
-          - Sesiones/sesion8.qmd
-          - Sesiones/sesion9.qmd
+      - text: "-----"
+      - Sesiones/sesion1.qmd
+      - Sesiones/sesion2.qmd
+      - Sesiones/sesion3.qmd
+
+      - Sesiones/sesion4.qmd
+      - Sesiones/sesion5.qmd
+      - Sesiones/sesion6.qmd
+
+      - Sesiones/sesion7.qmd
+      - Sesiones/sesion8.qmd
+      - Sesiones/sesion9.qmd
+      - text: "-----"
+      - Sesiones/sesion10.qmd

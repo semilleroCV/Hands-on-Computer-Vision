@@ -1,0 +1,23 @@
+---
+title: Segemntacion de materiales
+
+---
+
+
+::: {layout="[30,70]"}
+
+![](../images/sesion1.png)
+
+In this session, we're diving straight into the core of image formation – within the first few moments, you'll engage with an interactive example that demonstrates the fundamental principles of image capturing and processing. These principles form the foundation of what drives modern computer vision technology, offering a glimpse into the intricate dance of light and sensors that was at the forefront of computational imaging just a decade ago.
+
+:::
+
+
+
+[slides de la sesion*](github.com)
+
+:::{.callout-tip}
+## New!
+
+Esta sesion se realizara el dia xx a las xx
+:::

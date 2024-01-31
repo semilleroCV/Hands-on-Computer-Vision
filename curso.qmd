@@ -1,5 +1,5 @@
 ---
-title: Bienvenido al Semillero "Hands-on Computer Vision"
+title: Semillero "Hands-on Computer Vision"
 ---
 
 Bienvenido al semillero **Hands-on Computer Vision**, un viaje emocionante y práctico a través del vasto mundo de la visión por computadora y el procesamiento de imágenes. Aquí, no solo aprenderás los conceptos teóricos, sino que también tendrás la oportunidad de aplicarlos en proyectos reales y desafiantes. 

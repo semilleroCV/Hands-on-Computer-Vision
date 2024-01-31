@@ -32,7 +32,7 @@ format:
 
 <section class="upcoming-sessions">
     <h3>Cronograma</h3>
-    <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+    <table>
         <thead>
             <tr style="background-color: #f2f2f2;">
                 <th style="padding: 12px 15px; border: 1px solid #ddd;">Fecha</th>

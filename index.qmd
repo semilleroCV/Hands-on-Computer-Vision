@@ -160,5 +160,5 @@ format:
 </main>
 
 <footer>
-    <small>Para consultas, contacta a <a href="hfarueda@uis.edu.co">contacto@handson-cv.edu</a>.</small>
+    <small>Para consultas, contacta a <a target="_blank" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=hfarueda@uis.edu.co">hfarueda@uis.edu.co</a>.</small>
 </footer>

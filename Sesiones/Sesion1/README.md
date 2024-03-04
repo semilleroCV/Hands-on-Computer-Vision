@@ -1,3 +1,3 @@
 # ejercicio 1
 
-aqui informacion acerca de el ejercicio, que es, y que se espera obtener
+En la primera sesion, solo se realizara la parte de configuracion del repositorio y como hacer commit para subir los cambios al repositorio desde colab.

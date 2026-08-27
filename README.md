@@ -76,17 +76,17 @@ Bienvenido al repositorio oficial de **Hands-on Computer Vision**, un semillero 
 >
 > 🚧 **En construcción** 🚧
 
-### 🔆 Sesión 9: Imágenes térmicas
-> **El mundo visto a través del calor**
->
-> Explora una dimensión alternativa donde la temperatura revela información invisible a la luz normal.
->
-> 🚧 **En construcción** 🚧
-
-### 📊 Sesión 10: Optimización Convexa
+### 📊 Sesión 9: Optimización Convexa
 > **Optimizando el mundo con matemáticas**
 >
 > Descubre cómo los principios matemáticos de optimización son el motor detrás de los algoritmos más potentes.
+>
+> 🚧 **En construcción** 🚧
+
+### 🔆 Sesión 10: Imágenes térmicas
+> **El mundo visto a través del calor**
+>
+> Explora una dimensión alternativa donde la temperatura revela información invisible a la luz normal.
 >
 > 🚧 **En construcción** 🚧
 
